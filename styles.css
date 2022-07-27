@@ -72,7 +72,8 @@ form {
 }
 
 input,
-textarea {
+textarea,
+button {
   font-size: 1rem;
   border: 1px solid black;
   background-color: white;
@@ -91,6 +92,18 @@ input[type="submit"] {
 
 input[type="submit"]:active {
   background-color: gray;
+}
+
+button {
+  color: white;
+  border: 1px solid white;
+  background-color: red;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:active {
+  background-color: darkred;
 }
 
 form h4 {
